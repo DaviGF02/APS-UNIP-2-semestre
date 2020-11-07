@@ -35,9 +35,6 @@ class Funções:
             self.texto2.delete(1.0, 10.0)
             self.texto2.insert(1.0, newcript)
 
-    def areaTransf(self):
-        print("Copiado para a área de transferência")
-
     def salvaTexto(self):
         arquivo = open('cripto.txt', 'w')
         for palavra in self.texto2.get(1.0, 10.0):

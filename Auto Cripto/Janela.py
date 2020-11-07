@@ -41,11 +41,9 @@ btn1.place(x=30, y=500)
 btn2 = Button(janela, width=20, text="Descriptografar", command=CriptoPy.descript, background="#FFDAB9")
 btn2.place(x=220, y=500)
 
-btn3 = Button(janela, width=20, text="Copiar Mensagem", command=CriptoPy.areaTransf, background="#FFDAB9")
-btn3.place(x=430, y=500)
 
 btn4 = Button(janela, width=20, text="Salvar Mensagem", command=CriptoPy.salvaTexto, background="#FFDAB9")
-btn4.place(x=620, y=500)
+btn4.place(x=520, y=500)
 
 janela.mainloop()
 
